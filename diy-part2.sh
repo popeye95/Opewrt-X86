@@ -23,7 +23,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/
 #其他第三方package
 git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
 #git clone https://github.com/sirpdboy/netspeedtest package/netspeedtest
-git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
+#git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
 
 #取消bootstrap为默认主题
