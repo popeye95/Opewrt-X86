@@ -25,6 +25,7 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-ope
 #git clone https://github.com/sirpdboy/netspeedtest package/netspeedtest
 #git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
 #取消bootstrap为默认主题
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
