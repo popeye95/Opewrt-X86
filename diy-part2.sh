@@ -21,10 +21,10 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
 
 #其他第三方package
-git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
+#git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
 #git clone https://github.com/sirpdboy/netspeedtest package/netspeedtest
 #git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
-git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
+#git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
 #git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
 #取消bootstrap为默认主题
@@ -37,4 +37,4 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
 
 # Modify default IP
-#sed -i 's/192.168.1.1/168.168.1.3/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generate
