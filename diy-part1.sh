@@ -18,3 +18,5 @@
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 #echo 'src-git nas https://github.com/linkease/nas-packages.git' >>feeds.conf.default
 echo  'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+sed -i '/^#src-git luci https:\/\/github.com\/coolsnowwolf\/luci$/s/^#//' feeds.conf.default
+sed -i '/^src-git luci https:\/\/github.com\/coolsnowwolf\/luci\.git;openwrt-23\.05$/s/^/#/' feeds.conf.default
